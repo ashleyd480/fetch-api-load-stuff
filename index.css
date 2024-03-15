@@ -1,0 +1,73 @@
+body {
+  border: 2px solid pink;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.buttons > button {
+  font-size: 20px;
+}
+
+div > button {
+  box-shadow: 5px 10px gray;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f0f0f0;
+  /* width: 100 vw; */
+  border: 2px solid purple;
+}
+
+main > div {
+  border: 2px solid blue;
+  padding-bottom: 20px;
+}
+
+.textStyle {
+  font-style: bold;
+  font-size: 20px;
+  color: green;
+  border: 2px solid black;
+  box-shadow: 2px 4px gray;
+  padding: 20px;
+  width: 50%;
+}
+
+/* .catFacts {
+  position: relative;
+}
+.deleteButton {
+  position:absolute;
+  right:20%;
+} */
+
+.memeImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between items */
+  padding: 20px;
+  justify-content: flex-start; /* Align items to the start */
+  max-width: 960px;
+}
+
+.memeImages img {
+  flex: 1; /* Grow to fill available space */
+  width: calc(33.333% - 10px); /* Three items per row - gap */
+  height: 200px; /* Fixed height, or use 'auto' for natural height */
+  object-fit: cover; /* Cover the container without losing aspect ratio */
+  border: 2px solid black;
+  box-shadow: 2px 4px gray;
+  margin: 5px;
+}
