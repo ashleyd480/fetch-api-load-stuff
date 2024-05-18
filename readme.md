@@ -4,7 +4,7 @@
 
 # Intro
 
-This project was created in my 3rd week of coding bootcamp at General Assembly using JavavScript, HTML, and CSS. It uses the fundamentals of fetch API to allow jokes, cat facts, and memes to be loaded.
+This mini-project was created in my 3rd week of coding bootcamp at General Assembly using JavavScript, HTML, and CSS. It uses the fundamentals of fetch API to allow jokes, cat facts, and memes to be loaded.
 
 ---
 
